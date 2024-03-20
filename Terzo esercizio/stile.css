@@ -1,0 +1,22 @@
+* {
+    font-family: helvetica,sans-serif;
+}
+body {
+    background-color: #ff8205;
+}
+h1 {
+    color: #000;
+    font-size: 32px;
+}
+p {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    text-align: justify;
+    line-height: 1.5;
+}
+.imgdone {
+    object-fit: cover;
+    height: 35px;
+    scale: 1.5;
+}
