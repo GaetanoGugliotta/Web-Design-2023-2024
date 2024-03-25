@@ -1,0 +1,22 @@
+h1 {
+    color: #b95512;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 600px) {
+    h1 {
+        color: rgb(16, 87, 16);
+    }
+}
+
+img {
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    img {
+        width: 49%;
+    }
+}
