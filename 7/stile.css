@@ -2,12 +2,12 @@
     width: 200px;
     height: 100px;
     background-color: magenta;
-    transition-property: position;
+    transition-property: transform;
     transition-duration: 2s;
     animation-timing-function: linear;
 }
  .magenta:hover {
-    margin-left: 50px;
+    transform: translatex(50px);
  }
 
  .blu {
