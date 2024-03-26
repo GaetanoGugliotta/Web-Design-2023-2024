@@ -1,0 +1,27 @@
+#absolute {
+    background-color: brown;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+#fixed {
+    background-color: rgb(255, 0, 0);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+#sticky {
+    background-color: rgb(0, 255, 64);
+    position: sticky;
+    top: 50px;
+}
+
+.testo {
+    width: 200px;
+}
+
+p {
+    color: black;
+}
