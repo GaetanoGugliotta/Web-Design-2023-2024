@@ -4,6 +4,7 @@
     background-color: magenta;
     transition-property: transform;
     transition-duration: 2s;
+    transition-timing-function: linear;
 }
  .magenta:hover {
     transform: translatex(50px);
