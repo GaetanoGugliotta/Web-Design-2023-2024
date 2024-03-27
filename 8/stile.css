@@ -1,0 +1,98 @@
+/* Proprietà pagina */
+
+body {
+    background-color: #FFE330;
+}
+
+/* Proprietà testi */
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 550;
+    font-size: 37px;
+    font-style: normal;
+    left: 30px;
+    text-align: left;
+}
+
+.titoli-descrizioni {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.testo-footer {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+#tribute-link {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+    color: rgb(20, 37, 85);
+}
+
+#tribute-link:hover {
+    color: rgb(57, 99, 167);
+}
+
+#tribute-info,
+.descrizioni {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+/* Proprietà immgagini */
+
+#img-caption {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 380;
+    font-style: normal;
+}
+
+#image {
+    max-height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    justify-content: center;
+    display: block;
+}
+
+/* Proprietà sezioni/contenitori */
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+div {
+    max-height: auto;
+    max-width: 100%;
+}
+
+/* Proprietà divisori */
+
+hr {
+    border: 2px solid #000;
+    max-width: 100%;
+}
