@@ -1,0 +1,188 @@
+/* Common Elements */
+
+.color-element {
+    color: #FBFDFC !important;
+}
+
+.bc-base-light {
+    background-color: #FBFDFC !important;
+}
+
+
+.color-base-testi {
+    color: #212123 !important;
+}
+
+.bc-base-dark {
+    background-color: #212123 !important;
+}
+
+.arrow {
+    scale: 5%;
+}
+
+.colgap {
+    column-gap: 1.rem !important;
+}
+
+.p-l {
+    padding-left: 1.25rem;
+}
+
+.p-r {
+    padding-right: 1.25rem;
+}
+
+/* Text */
+
+h1,h2,h3,h4,h5,p {
+    padding: 0 !important;
+    margin-bottom: 2.5rem !important;
+}
+
+h1 {
+    color: #FBFDFC !important;
+}
+
+.text-cat-obj {
+    margin-top: 1rem !important;
+}
+
+/* Icon */
+
+.iconf {
+    max-width: 30px !important;
+}
+
+/* Navbar */
+
+.navbar-toggler-icon {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyNy4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGl2ZWxsb18xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDQ0Ny45IDQ0Ny45IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0NDcuOSA0NDcuOTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCgkuc3Qwe2ZpbGw6bm9uZTtzdHJva2U6I0ZCRkRGQztzdHJva2Utd2lkdGg6MTkuNTkxOTtzdHJva2UtbGluZWNhcDpyb3VuZDt9DQo8L3N0eWxlPg0KPGc+DQoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTI4LDc3aDczLjUgTTQxOS45LDc3SDE5OS41Ii8+DQoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTQxOS45LDM3MC45aC03My41IE0yOCwzNzAuOWgyMjAuNCIvPg0KCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yOCwyMjMuOWg3My41aDMxOC40Ii8+DQo8L2c+DQo8L3N2Zz4NCg==) !important;
+    stroke: none !important;
+}
+
+nav {
+    background-color: #212123;
+}
+
+.logok {
+    width: 30px;
+}
+
+.navbar-toggler {
+    border-color: transparent !important;
+    border-style: none !important;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+}
+
+.navbar {
+    flex-wrap: nowrap !important;
+}
+
+hr {
+    border: 2px solid #212123 !important;
+    border-radius: 10px;
+    opacity: 1 !important;
+}
+
+/* About me Home */
+.about {
+    height: 100% !important;
+}
+.col {
+    padding: 0% !important;
+    
+}
+.row {
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    max-width: 100% !important;
+    max-height: 400px !important;
+    flex-wrap: nowrap !important;
+}
+.cont-about {
+    background-color: #DCDDDF;
+    padding: 0 !important;
+    margin-top: 59px;
+}
+
+.img-about {
+    width: 100%;
+    max-height: 400px !important;
+    object-fit: cover !important;
+}
+
+/* Carousel */
+
+/* Cards */
+
+.d-flex {
+    flex-wrap: wrap !important;
+}
+
+.card {
+    margin-bottom: 4rem !important;
+    margin-left: 2.5rem !important;
+    margin-right: 2.5rem !important;
+}
+
+.btn-primary {
+    background-color: #212123 !important;
+    border: none !important;
+}
+
+/* Project Images */
+
+.bi-proj {
+    background-image: url(Img/Immagini/sito\ nel\ mac.png);
+    background-size: cover;
+    max-height: 400px !important;
+    min-height: 200px !important;
+    margin-top: 59px !important;
+}
+
+/* Responsive */
+
+@media screen and (max-width:992px) {
+    .color-element {
+        color: #212123 !important;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .logok {
+        position: relative;
+        left: 50%;
+        margin-left: -50px !important;
+        display: inline;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .navbar-brand {
+        width: 992px;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .imgcont2-1 {
+        margin-top: 2.5rem;
+        padding: 0 !important;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .text-cat-obj {
+        margin-top: 2.5rem !important;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .other {
+        display: none;
+    }
+}
