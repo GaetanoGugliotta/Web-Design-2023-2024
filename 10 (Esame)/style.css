@@ -8,6 +8,10 @@
     background-color: #FBFDFC !important;
 }
 
+.bc-base-gray {
+    background-color: #DCDDDF !important;
+}
+
 
 .color-base-testi {
     color: #212123 !important;
@@ -33,9 +37,30 @@
     padding-right: 1.25rem;
 }
 
+.text-cat-obj {
+    margin-top: 1rem !important;
+}
+
+.text-cat-obj-b {
+    margin-top: 1rem !important;
+}
+
+.row>* {
+    flex-shrink: inherit !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
 /* Text */
 
-h1,h2,h3,h4,h5,p {
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
     padding: 0 !important;
     margin-bottom: 2.5rem !important;
 }
@@ -44,8 +69,8 @@ h1 {
     color: #FBFDFC !important;
 }
 
-.text-cat-obj {
-    margin-top: 1rem !important;
+.t-now {
+    white-space: nowrap !important;
 }
 
 /* Icon */
@@ -92,10 +117,12 @@ hr {
 .about {
     height: 100% !important;
 }
+
 .col {
     padding: 0% !important;
-    
+
 }
+
 .row {
     margin-top: 0 !important;
     margin-right: 0 !important;
@@ -104,6 +131,7 @@ hr {
     max-height: 400px !important;
     flex-wrap: nowrap !important;
 }
+
 .cont-about {
     background-color: #DCDDDF;
     padding: 0 !important;
@@ -137,12 +165,54 @@ hr {
 
 /* Project Images */
 
-.bi-proj {
-    background-image: url(Img/Immagini/sito\ nel\ mac.png);
+.bi-proj-aboutme {
+    background: linear-gradient(180deg, rgba(35, 33, 33, 0) 0%, rgba(33, 33, 35, 0.75) 100%), url(Img/Immagini/DSCF0194.jpg);
     background-size: cover;
-    max-height: 400px !important;
+    background-repeat: no-repeat;
+    max-height: 470px !important;
     min-height: 200px !important;
+    height: 100vh;
     margin-top: 59px !important;
+}
+
+.bi-proj-contacts {
+    background: linear-gradient(180deg, rgba(35, 33, 33, 0) 0%, rgba(33, 33, 35, 0.75) 100%), url(Img/Immagini/Contacts.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 470px !important;
+    min-height: 200px !important;
+    height: 100vh;
+    margin-top: 59px !important;
+}
+
+.bi-proj-fd {
+    background: linear-gradient(180deg, rgba(35, 33, 33, 0) 0%, rgba(33, 33, 35, 0.75) 100%), url(Img/Immagini/sito\ nel\ mac.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 470px !important;
+    min-height: 200px !important;
+    height: 100vh;
+    margin-top: 59px !important;
+}
+
+/* Images 2/3 */
+
+.img2-3 {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover !important; */
+}
+
+/* Project software cards */
+
+.logo-s {
+    height: 4rem !important;
+}
+
+/* Maps */
+
+.map {
+    filter: grayscale(100%);
 }
 
 /* Responsive */
@@ -156,7 +226,7 @@ hr {
 @media screen and (max-width:992px) {
     .logok {
         position: relative;
-        left: 50%;
+        left: 51%;
         margin-left: -50px !important;
         display: inline;
     }
@@ -184,5 +254,17 @@ hr {
 @media screen and (min-width:992px) {
     .other {
         display: none;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .logo-s {
+        height: 3.7rem !important;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .mw-c-s {
+        min-width: 100%;
     }
 }
