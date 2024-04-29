@@ -65,6 +65,10 @@ p {
     margin-bottom: 2.5rem !important;
 }
 
+.txt-contact {
+    min-width: 213.8px;
+}
+
 h1 {
     color: #FBFDFC !important;
 }
@@ -166,7 +170,7 @@ hr {
 /* Project Images */
 
 .bi-proj-aboutme {
-    background: linear-gradient(180deg, rgba(35, 33, 33, 0) 0%, rgba(33, 33, 35, 0.75) 100%), url(Img/Immagini/DSCF0194.jpg);
+    background: linear-gradient(180deg, rgba(35, 33, 33, 0) 0%, rgba(33, 33, 35, 0.75) 100%), url(Img/Immagini/About\ me.png);
     background-size: cover;
     background-repeat: no-repeat;
     max-height: 470px !important;
@@ -186,7 +190,7 @@ hr {
 }
 
 .bi-proj-fd {
-    background: linear-gradient(180deg, rgba(35, 33, 33, 0) 0%, rgba(33, 33, 35, 0.75) 100%), url(Img/Immagini/sito\ nel\ mac.png);
+    background: linear-gradient(180deg, rgba(35, 33, 33, 0) 0%, rgba(33, 33, 35, 0.75) 100%), url(Img/Immagini/prj-Fd.png);
     background-size: cover;
     background-repeat: no-repeat;
     max-height: 470px !important;
@@ -195,6 +199,35 @@ hr {
     margin-top: 59px !important;
 }
 
+.bi-proj-md {
+    background: linear-gradient(180deg, rgba(35, 33, 33, 0) 0%, rgba(33, 33, 35, 0.75) 100%), url(Img/Immagini/prj-MD.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 470px !important;
+    min-height: 200px !important;
+    height: 100vh;
+    margin-top: 59px !important;
+}
+
+.bi-proj-fe {
+    background: linear-gradient(180deg, rgba(35, 33, 33, 0) 0%, rgba(33, 33, 35, 0.75) 100%), url(Img/Immagini/prj-Fera.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 470px !important;
+    min-height: 200px !important;
+    height: 100vh;
+    margin-top: 59px !important;
+}
+
+.bi-proj-ru {
+    background: linear-gradient(180deg, rgba(35, 33, 33, 0) 0%, rgba(33, 33, 35, 0.75) 100%), url(Img/Immagini/prj-rolup.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 470px !important;
+    min-height: 200px !important;
+    height: 100vh;
+    margin-top: 59px !important;
+}
 /* Images 2/3 */
 
 .img2-3 {
