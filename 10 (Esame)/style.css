@@ -242,6 +242,11 @@ hr {
     height: 4rem !important;
 }
 
+.cont-cards-proj {
+    max-width: 13rem;
+    min-width: 207.17px;
+}
+
 /* Maps */
 
 .map {
