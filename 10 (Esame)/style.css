@@ -65,6 +65,46 @@ p {
     margin-bottom: 2.5rem !important;
 }
 
+h1 {
+    font-size: 4.5rem !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 850;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 3.5rem !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h5 {
+    font-size: 1.3rem !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+p {
+    font-size: 1.5rem !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .txt-contact {
     min-width: 213.8px;
 }
@@ -228,6 +268,7 @@ hr {
     height: 100vh;
     margin-top: 59px !important;
 }
+
 /* Images 2/3 */
 
 .img2-3 {
@@ -304,5 +345,41 @@ hr {
 @media screen and (max-width:300px) {
     .mw-c-s {
         min-width: 100%;
+    }
+}
+
+@media screen and (max-width:360px) {
+    h1 {
+        font-size: 3rem !important;
+        font-family: "Roboto", sans-serif;
+        font-weight: 850;
+        font-style: normal;
+    }
+}
+
+@media screen and (max-width:360px) {
+    h2 {
+        font-size: 2.3rem !important;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+}
+
+@media screen and (max-width:1540px) {
+    p {
+        font-size: 1.2rem !important;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+@media screen and (max-width:345px) {
+    p {
+        font-size: 1rem !important;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
     }
 }
